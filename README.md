@@ -5,7 +5,7 @@ Thin wrapper around [aplus-framework/cache](https://docs.aplus-framework.com/gui
 ## Example
 
 ```php
-use peels\cache\FilesCache;
+use orange\cache\FilesCache;
 
 // $config is passed straight through to the aplus-framework backend
 // (for FilesCache, an array with a 'directory' key)

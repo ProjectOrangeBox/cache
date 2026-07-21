@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace peels\cache;
+namespace orange\cache;
 
 use orange\framework\interfaces\CacheInterface;
 use Framework\Cache\RedisCache as aplusRedisCache;

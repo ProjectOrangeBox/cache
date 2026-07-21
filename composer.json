@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "peels\\cache\\": "src/"
+            "orange\\cache\\": "src/"
         }
     },
     "minimum-stability": "dev",
