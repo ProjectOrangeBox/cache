@@ -34,7 +34,7 @@ class IncludeCache extends Singleton implements CacheInterface
             throw new DirectoryNotFound($this->directory);
         }
 
-        // what directory inside the main directory do they want us to store our cache files in 
+        // what directory inside the main directory do they want us to store our cache files in
         $this->parentDirectory = $config['parentDirectory'] ?? $this->parentDirectoryFallBack;
 
         // what length of the cache key should we use to make sure the parent directory doesn't contain to main files?
@@ -69,7 +69,7 @@ class IncludeCache extends Singleton implements CacheInterface
     {
         $time = time();
 
-        $ttl = $ttl ?? $this->getTTL();
+        $ttl ??= $this->getTTL();
 
         $array = [
             'filemtime' => $time,

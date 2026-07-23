@@ -29,7 +29,7 @@ class DummyCache extends Cache implements CacheInterface
         return null;
     }
 
-    public function set(string $key, mixed $value, int $ttl = null): bool
+    public function set(string $key, mixed $value, ?int $ttl = null): bool
     {
         return true;
     }
